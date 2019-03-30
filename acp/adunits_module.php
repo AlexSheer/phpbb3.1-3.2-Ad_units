@@ -312,7 +312,6 @@ class adunits_module
 		global $config, $user;
 
 		$pages_list = array('ucp', 'viewtopic', 'search', 'faq', 'memberlist', 'posting', 'report', 'viewonline', 'feed', 'mcp', 'index');
-		$explain = array('UCP');
 		$selected = array();
 		if (isset($config[$key]) && strlen($config[$key]) > 0)
 		{
