@@ -313,10 +313,12 @@ class adunits_module
 
 		$pages_list = array('ucp', 'viewtopic', 'search', 'faq', 'memberlist', 'posting', 'report', 'viewonline', 'feed', 'mcp', 'index');
 		$explain = array('UCP');
+		$selected = array();
 		if (isset($config[$key]) && strlen($config[$key]) > 0)
 		{
 			$selected = explode(',', $config[$key]);
 		}
+
 		$explain = array(
 			$user->lang['PROFILE'],
 			$user->lang['VIEW_TOPIC'], //viewtopic
