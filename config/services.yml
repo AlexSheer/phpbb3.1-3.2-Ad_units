@@ -1,0 +1,11 @@
+services:
+    apwa.adunits.listener:
+        class: apwa\adunits\event\listener
+        arguments:
+            - '@user'
+            - '@config'
+            - '@config_text'
+            - '@template'
+            - '%core.php_ext%'
+        tags:
+            - { name: event.listener }
