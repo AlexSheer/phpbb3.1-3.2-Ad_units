@@ -83,6 +83,7 @@ class adunits_module
 					'legend2'	=> 'ACP_SUBMIT_CHANGES',
 				),
 			);
+			break;
 
 			case 'exclude':
 			$display_vars = array(
